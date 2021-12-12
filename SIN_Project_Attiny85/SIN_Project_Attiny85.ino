@@ -125,8 +125,8 @@ void loop(){
   DigiKeyboard.delay(2000);
   //DigiKeyboard.print("Invoke/item $Env>userprofile&Desktop&white/gray/black/hat/hacker/158788611.jpg");
   DigiKeyboard.print("Invoke/item $Env>userprofile&Desktop&cake.jpg");
-  // ESTE COMANDO HARA QUE TU POWERSHELL EJECUTE ALGO EN .EXE
-  //& "D:\juegos\The Second Circle Game Files\The_Second_Circle.exe"
+  // ESTE COMANDO HARA QUE TU POWERSHELL EJECUTE ALGO EN .EXE SIN IMPORTAR ESPACIOS EN POWERSHELL
+  //& "C/D/ETC:\CARPETA1\CARPETA2\ARCHIVO.exe"
   DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
